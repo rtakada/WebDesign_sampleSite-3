@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* テーマカラー : ターコイズ */
+/* #05F2DB */
+
+::selection {
+    /* 500 */
+    background-color: #00ddc9;
+}
+
+nav {
+    /* 明るい黄 ~ ターコイズ */
+    background: -webkit-linear-gradient(90deg, #faffaa, #05F2DB); /* Safari */
+    background: linear-gradient(90deg, #faffaa, #05F2DB);
+}
+
+#main-content h2 {
+    /* 500 */
+    color: #00ddc9;
+}
+
+#main-content .section-title {
+    /* 500 */
+    background-color: #00ddc9;
+}
+
+#main-content .section-content .subhead,
+footer {
+    /* 100 */
+    background-color: #c1fff9;
+}

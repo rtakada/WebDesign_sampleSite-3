@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* テーマカラー : 濃い青 */
+/* #0C70F2 */
+
+::selection {
+    /* 500 */
+    background-color: #2aa3ff;
+}
+
+nav {
+    /* 淡いピンク ~ 濃い青 */
+    background: -webkit-linear-gradient(90deg, #F1AEF2, #0C70F2); /* Safari */
+    background: linear-gradient(90deg, #F1AEF2, #0C70F2);
+}
+
+#main-content h2 {
+    /* 500 */
+    color: #2aa3ff;
+}
+
+#main-content .section-title {
+    /* 500 */
+    background-color: #2aa3ff;
+}
+
+footer {
+    /* 200 */
+    background-color: #b9e6ff;
+}
